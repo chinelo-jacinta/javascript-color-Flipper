@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>java script basics</title>
+    <link rel="stylesheet" href="./main-css/styles.css" />
+    <style>
+      .btn {
+        font-size: 2rem;
+      }
+      .colors {
+        background: red;
+        color: white;
+      }
+      .text {
+        letter-spacing: 1rem;
+        font-size: 3rem;
+      }
+      .red {
+        background: red;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .blue {
+        background: blue;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+      }
+      .btn-btn {
+        background: red;
+        color: white;
+        font-size: 1.5rem;
+        border: none;
+      }
+      .event a {
+        margin-top: 100vh;
+        display: inline-block;
+        text-decoration: none;
+      }
+      .btnn {
+        background: red;
+        font-size: 2rem;
+        color: white;
+        border: none;
+      }
+      .btns {
+        display: block;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: white;
+        background: red;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>javascript tutorial</h1>
+
+    <br />
+    <h2 id="sub-title">hello DOM</h2>
+    <h2>another h2</h2>
+    <h2>hello</h2>
+    <br />
+    <button class="btn" id="btn">CLICK ME</button>
+    <ul id="names">
+      <li class="special">anna</li>
+      <li>suzy</li>
+      <li class="special">bobo</li>
+      <li>kossy</li>
+      <li class="special lasts">john</li>
+      <li>jessy</li>
+    </ul>
+    <h2>another h2</h2>
+    <h2 id="sub-title">hello</h2>
+    <div class="main-container">
+      parent element SECTION
+      <div class="sub-container">
+        <h2>example of fruits</h2>
+        <div class="remove-child">
+          <li class="fruits first">orange</li>
+          <li class="fruits">mango</li>
+          <li class="fruits">coconut</li>
+          <li class="fruits last">pineapple</li>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li class="attribute" id="attribute2">i have class of attribute</li>
+      <a href="#" id="link">random link</a>
+      <li>i have no attribute</li>
+    </ul>
+    <!-- only used for className and classList -->
+    <!-- <h1 id="first" class="colors">i'm first element</h1>
+    <h1 id="second">i'm second element</h1>
+    <h1 id="third">i'm third element</h1>
+    <h1 id="forth">i'm forth element</h1> -->
+    <!-- only used for className and classList -->
+
+    <!-- only used for createElement('element'), createTextnode("text content") and element.appendChild(childElement) -->
+    <!-- 
+    <div id="result">
+      <h1 class="colors">i'm the child of result</h1>
+    </div> -->
+
+    <!-- only used for createElement('element'), createTextnode("text content") and element.appendChild(childElement) -->
+
+    <!-- only used for textContent, and innerHtml -->
+    <!-- 
+    <ul id="first">
+      <li class="item">list item</li>
+      <li>list item 22</li>
+    </ul>
+    <div id="text">i have some text content</div> -->
+
+    <!-- only used for textContent, and innerHtml -->
+
+    <!-- can only be used for addEventlistener -->
+
+    <!-- <h2 class="heading">events is javascript</h2>
+    <button class="btn-btn">click me</button> -->
+    <!-- this is the old way of adding events on javascript using inline
+    p:s try and avoid this method, its not advisable -->
+    <!-- <p onclick="this.classList.add('red')">the old style</p> -->
+    <!-- can only be used for addEventlistener -->
+
+    <!-- KEYS EVENTS -->
+    <!-- <section>
+      <input type="text" id="name" />
+    </section> -->
+    <!--END OF  KEYS EVENTS -->
+
+    <!-- EVENTS OBJECTS-->
+    <!-- <div class="event">
+      <button class="btnn">click me</button>
+      <h2 class="heading2">some heading</h2>
+
+      <a href="" id="random-link">random link</a>
+    </div> -->
+    <!--  END OF EVENTS OBJECTS-->
+
+    <!-- currentTarget and target -->
+
+    <!-- <button class="btns">first button</button>
+    <button class="btns">
+      second <strong>button <strong>more nested</strong></strong>
+    </button>
+    <button class="btns">third button</button> -->
+
+    <!-- end of currentTarget and target -->
+
+    <!-- PROPOGATION, BUBBLING, CAPTURING -->
+    <!-- <div class="container">
+      <ul class="list-items">
+        <li class="item"><a href="#" class="link">link</a></li>
+        <li class="item"><a href="#" class="link">link</a></li>
+        <li class="item"><a href="#" class="link">link</a></li>
+      </ul>
+    </div> -->
+    <!--END OF PROPOGATION, BUBBLING, CAPTURING -->
+
+    <!-- PROPOGATION, BUBBLING, CAPTURING example -->
+    <!-- <div class="container"> -->
+    <!-- 
+         <!-- <h1 class="heading">i'm sitting inside a container</h1> -->
+
+    <!-- </div>
+    <button class="btns">click me</button> -->
+    <!-- END OF  PROPOGATION, BUBBLING, CAPTURING example -->
+    <!-- submit event listener -->
+    <!-- <form action="" id="form">
+      <input type="text" id="name" />
+      <input type="password" id="password" />
+      <input type="submit" id="submit" />
+    </form> -->
+    <!--end of submit event listener -->
+    <!-- javascript -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
